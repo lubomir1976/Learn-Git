@@ -1,11 +1,15 @@
 'use strict'
+{
+   const nameProduct = ('Колбаса');
+   const numberProduct = 2;
+   const categoryProduct = 'Полуфабрикаты';
+   const priceProduct = 590;
 
-const nameProduct = ('Колбаса');
-const nubberProduct = 2;
-const categoryProduct = 'Полуфабрикаты';
-const priceProduct = 590;
-let price = nubberProduct * priceProduct;
-console.log(price);
+   console.log(nameProduct);
+   console.log(`общая сумма товара: ${numberProduct * priceProduct}`);
+}
+
+}
 
 {
    const item = 'Мороженное';
@@ -15,4 +19,4 @@ console.log(price);
 
    console.log(item);
    console.log(`общая сумма товара: ${count * price}`);
- }
+}
