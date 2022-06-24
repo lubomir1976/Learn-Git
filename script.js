@@ -9,7 +9,7 @@
    console.log(`общая сумма товара: ${numberProduct * priceProduct}`);
 }
 
-}
+
 
 {
    const item = 'Мороженное';
